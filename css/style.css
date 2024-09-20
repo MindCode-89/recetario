@@ -86,22 +86,7 @@ body {
   }
   
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+/* RESPONSIVE DESIGN*/
   
   @media (max-width: 768px) {
       .container {        
@@ -111,23 +96,23 @@ body {
     
       img {
         width: 100%; 
-        height: auto; /* Mantiene la proporción de la imagen */
+        height: auto; 
       }
     
       table {
-        width: 100%; /* La tabla también ocupará todo el ancho */
+        width: 100%; 
       }
     
       h1, h2 {
-        font-size: 1.5rem; /* Ajusta el tamaño de los títulos */
+        font-size: 1.5rem; 
       }
     
       p {
-        font-size: 14px; /* Ajusta el tamaño de los párrafos */
+        font-size: 14px; 
       }
     
       ol {
-        padding-left: 20px; /* Ajusta la indentación de la lista ordenada */
+        padding-left: 20px; 
       }
     
       .comida {
@@ -136,22 +121,21 @@ body {
       }
     }
     
-    /* Media Query para pantallas muy pequeñas (móviles pequeños) */
+
     @media (max-width: 480px) {
       .container {
-        max-width: 95%; /* Más compacto en móviles pequeños */
+        max-width: 95%; 
         padding: 10px;
       }
     
       h1, h2 {
-        font-size: 1.2rem; /* Reduce más los títulos en pantallas pequeñas */
+        font-size: 1.2rem; 
       }
     
       p {
-        font-size: 12px; /* Reduce más los párrafos */
-      }
+        font-size: 12px; 
     
       .comida {
         padding: 10px;
       }
-    }
+    }}
