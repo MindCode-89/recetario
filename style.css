@@ -1,0 +1,157 @@
+
+body {
+    background-color: rgb(231, 211, 211);
+   font-family: ç;
+  }
+  
+  img {
+    border-radius: 15px;
+  }
+  
+  p{
+      font-size: 16px;
+  }
+  
+  h2{
+      color:#742b0f;
+  }
+  
+  .Ingredients{margin-bottom: 35px;}
+  
+  .time{
+      color: #702F49;
+      opacity: 25;
+      border-radius: 105px;
+      
+  }
+  
+  .container {
+    background-color: white;
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 25px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .comida {
+      background-color: #FFF7FC;
+      border-radius: 5px;
+      margin-left: 15px;
+      padding: 20px 20px; 
+    }
+    
+    section ol ::marker {
+      font-weight: bold; 
+      color:#742b0f;
+      font: weight 900px;;
+    }
+    
+  
+  table {
+      
+    width: 600px;
+  }
+  
+  th {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .linea {
+      padding: 12px;
+    border-top: 1px solid black;
+  }
+  
+  td {
+    color: brown;
+    padding: 10px;
+    border-top: 1px solid black;
+  }
+  
+  th {
+      padding: 10px;
+    border-top: 1px solid black;
+  }
+  
+  tr:first-child th,
+  tr:first-child td {
+    border-top: none;
+  }
+  
+  .attribution{
+      text-align:center ;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  @media (max-width: 768px) {
+      .container {        
+        max-width: 90px; 
+        padding: 15px;
+      }
+    
+      img {
+        width: 100%; 
+        height: auto; /* Mantiene la proporción de la imagen */
+      }
+    
+      table {
+        width: 100%; /* La tabla también ocupará todo el ancho */
+      }
+    
+      h1, h2 {
+        font-size: 1.5rem; /* Ajusta el tamaño de los títulos */
+      }
+    
+      p {
+        font-size: 14px; /* Ajusta el tamaño de los párrafos */
+      }
+    
+      ol {
+        padding-left: 20px; /* Ajusta la indentación de la lista ordenada */
+      }
+    
+      .comida {
+        margin-left: 0;
+        padding: 15px;
+      }
+    }
+    
+    /* Media Query para pantallas muy pequeñas (móviles pequeños) */
+    @media (max-width: 480px) {
+      .container {
+        max-width: 95%; /* Más compacto en móviles pequeños */
+        padding: 10px;
+      }
+    
+      h1, h2 {
+        font-size: 1.2rem; /* Reduce más los títulos en pantallas pequeñas */
+      }
+    
+      p {
+        font-size: 12px; /* Reduce más los párrafos */
+      }
+    
+      .comida {
+        padding: 10px;
+      }
+    }
